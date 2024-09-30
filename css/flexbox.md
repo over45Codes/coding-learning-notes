@@ -6,13 +6,7 @@ If you use the diplay of flex in a container this will be displayed in columns a
 ### display: inline-flex;
 - This allows you to only ocupy the content it needs. It means it also allows for more content to be placed. Otherwise if you use ``` display: flex; ``` this will ocupy 100% width of the page like a block 
 
-
-inline-flex;
-
-.container {
-    display: inline-flex;
-  
-}
+```.container {display: inline-flex;} ```
 
 
 ----
