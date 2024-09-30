@@ -1,3 +1,12 @@
+# Flex Display 
+If you use the diplay of flex in a container this will be displayed in columns and you can use the gap property to set the gap between the columns. 
+  
+``` .container {display: flex; gap: 10px;} ```
+
+
+
+----
+
 # Flex-Direction 
 
 ## flex-direction: row; 
