@@ -1,4 +1,4 @@
-//NOTE Relational databases
+//NOTE: Relational databases
 
 # Relational databases
 
