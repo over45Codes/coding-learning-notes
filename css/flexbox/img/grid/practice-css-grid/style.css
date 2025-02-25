@@ -7,6 +7,7 @@
     /* option 1. grid-template-rows: 50px 50px; */
     grid-template:repeat(2,50px) / repeat(3, 1fr);
     grid-gap: 3px;
+    background-color: black;
 }
 
 
@@ -15,23 +16,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size:  2em;
-color: rgb(246, 246, 246);
+color: yellowgreen;
+
 
 }
 
-html, body {
-    background-color: antiquewhite;
+/* html, body {
+    background: white;
     margin: 10px;
     
-}
-
+} */
 
 .one {
     background-color: red;
+   
 }
 
 .two {
     background-color: rgb(224, 221, 221);
+
 }
 
 .three {
@@ -40,6 +43,29 @@ html, body {
 }
 
 .four {
-    background-attachment: rgb(224, 221, 221);
+    background-color: rgb(224, 221, 221);
+}
+
+.five {
+    background-color: blue;
+
+}
+
+.six {
+    background-color: rgb(224, 221, 221);
+
+} 
+
+.seven {
+    background-color: rgb(224, 221, 221);
+
+}
+
+.eight {
+    background-color: rgb(250, 250, 11);
+}
+
+.nine {
+    background-color: black;
 }
 
