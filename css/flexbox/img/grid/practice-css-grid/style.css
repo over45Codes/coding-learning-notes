@@ -2,8 +2,10 @@
     display: grid;
     /* option 1. grid-template-columns: 100px auto 100px; */
     /* option 2. grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 50px;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,50px); */
+    /* option 1. grid-template-rows: 50px 50px; */
+    grid-template:repeat(2,50px) / repeat(3, 1fr);
     grid-gap: 3px;
 }
 
