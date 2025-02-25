@@ -1,9 +1,20 @@
+.container {
+    display: grid;
+    /* option 1. grid-template-columns: 100px auto 100px; */
+    /* option 2. grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
+}
+
+
 .container > div {
 display: flex;
 justify-content: center;
 align-items: center;
 font-size:  2em;
 color: blueviolet;
+
 }
 
 html, body {
