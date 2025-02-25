@@ -15,7 +15,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size:  2em;
-color: blueviolet;
+color: rgb(246, 246, 246);
 
 }
 
@@ -24,3 +24,22 @@ html, body {
     margin: 10px;
     
 }
+
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: rgb(224, 221, 221);
+}
+
+.three {
+    background-color:rgb(224, 221, 221);
+
+}
+
+.four {
+    background-attachment: rgb(224, 221, 221);
+}
+
