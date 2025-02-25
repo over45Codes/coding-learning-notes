@@ -6,7 +6,7 @@
     grid-template-rows: repeat(2,50px); */
     /* option 1. grid-template-rows: 50px 50px; */
     grid-template:repeat(2,50px) / repeat(3, 1fr);
-    grid-gap: 3px;
+    grid-gap: 9px;
     background-color: black;
 }
 
