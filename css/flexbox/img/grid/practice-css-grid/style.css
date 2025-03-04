@@ -1,49 +1,34 @@
 .container {
+    height: 748px;
+    width: 748px;
     display: grid;
-    /* option 1. grid-template-columns: 100px auto 100px; */
-    /* option 2. grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,50px); */
-    /* option 1. grid-template-rows: 50px 50px; */
-    grid-template:repeat(2,50px) / repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 9px;
-    background-color: black;
-}
-
-
-.container > div {
-display: flex;
-justify-content: center;
-align-items: center;
-font-size:  2em;
-color: yellowgreen;
-
+    background-color: #000;
 
 }
 
-/* html, body {
-    background: white;
-    margin: 10px;
-    
-} */
 
 .one {
-    background-color: red;
+    background-color: #E72F24;
+    
    
 }
 
 .two {
-    background-color: rgb(224, 221, 221);
+    background-color:#F0F1EC;
+
 
 }
 
 .three {
-    background-color:rgb(224, 221, 221);
+    background-color:#F0F1EC;
 
 }
 
 .four {
-    background-color: rgb(224, 221, 221);
+    background-color:#F0F1EC;
 }
 
 .five {
@@ -52,20 +37,20 @@ color: yellowgreen;
 }
 
 .six {
-    background-color: rgb(224, 221, 221);
+    background-color: #F0F1EC;
 
 } 
 
 .seven {
-    background-color: rgb(224, 221, 221);
+    background-color: #F0F1EC;
 
 }
 
 .eight {
-    background-color: rgb(250, 250, 11);
+    background-color: #F9D01E;
 }
 
 .nine {
-    background-color: black;
+    background-color: #232629;
 }
 
