@@ -1,8 +1,8 @@
 .container {
     height: 748px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    /* grid-template-columns: 1fr 2fr; */
+    /* grid-template-rows: 1fr 2fr; */
     gap: 9px;
     background-color: #000;
 
