@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 9px;
+    gap: 9px;
     background-color: #000;
 
 }
