@@ -3,64 +3,51 @@
     width: 748px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /* grid-template-rows: 1fr 2fr; */
+    grid-template-rows: 1fr 2fr;
     gap: 9px;
     background-color: #000;
 
 }
 
 
+
+
+
 .one {
     background-color: #E72F24;
-    
-   
 }
 
 .two {
     background-color:#F0F1EC;
-  
-
 }
 
 .three {
     background-color:#F0F1EC;
-  
-
 }
 
 .four {
     background-color:#F0F1EC;
-
-  
 }
 
 .five {
     background-color: blue;
     /* grid-area: 2 / 2 / 3; */
-  
-   
-
 }
 
 .six {
     background-color: #F0F1EC;
- 
 } 
 
 .seven {
     background-color: #F0F1EC;
-    
-
 }
 
 .eight {
     background-color: #F9D01E;
- 
 }
 
 .nine {
     background-color: #232629;
     color: #F0F1EC;
- 
 }
 
